@@ -1,9 +1,13 @@
 import 'package:bubbl/screens/splash_screen.dart';
-import 'package:bubbl/utils/appcolors.dart';
+import 'package:bubbl/utilities/appcolors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: primaryColor, // status bar color
+    statusBarBrightness: Brightness.dark,
+  ));
   runApp(const MyApp());
 }
 
@@ -13,7 +17,12 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: AppColor.primaryColor, // Change this to your primary color
+    ));
     return  MaterialApp(
+      debugShowCheckedModeBanner: false,
+
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.white,
           fontFamily: 'Inter',

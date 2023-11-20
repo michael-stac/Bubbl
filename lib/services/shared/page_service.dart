@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../utils/appcolors.dart';
+import '../../utilities/appcolors.dart';
 import 'global_variable.dart';
 
 class PageService{
@@ -40,6 +40,7 @@ class PageService{
     width: 30,
   );
   static TextStyle bigHeaderStyle= TextStyle(fontSize: 18,fontWeight: FontWeight.bold,color: AppColor.primaryColor,  fontFamily: 'Inter',);
+  static TextStyle largeHeaderStyle= TextStyle(fontSize: 24,fontWeight: FontWeight.bold,color: AppColor.black,  fontFamily: 'Inter',);
   static TextStyle headerStyle= TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: AppColor.primaryColor,  fontFamily: 'Inter',);
 
 
