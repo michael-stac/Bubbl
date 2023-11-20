@@ -19,7 +19,7 @@ class _MainActivityPageState extends State<MainActivityPage> {
   ///bottom nav items
   List<Map>? bottomNavItems = [
     {'title': 'Home', 'icon': MdiIcons.rhombusSplit},
-    {'title': "Procedures", 'icon': MdiIcons.medicalBag},
+    {'title': "Wallet", 'icon': MdiIcons.wallet},
     {'title': "Profile", 'icon': Icons.account_circle},
   ];
 
