@@ -1,3 +1,4 @@
+import 'package:bubbl/screens/authentication/register.dart';
 import 'package:flutter/material.dart';
 
 import '../../services/shared/page_service.dart';
@@ -45,15 +46,18 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Column(
               children: [
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    nextPage(context, page: const RegisterScreen());
+
+                  },
                   child: Container(
                     alignment: Alignment.center,
                     width: MediaQuery.of(context).size.width,
                     padding: const EdgeInsets.all(15),
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        border:
-                            Border.all(color: AppColor.primaryColor, width: 1)),
+                        border: Border.all(color: AppColor.primaryColor, width: 1)
+                    ),
                     child: Text(
                       "Create Account",
                       style: PageService.labelStyle,

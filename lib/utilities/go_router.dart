@@ -22,7 +22,7 @@ final GoRouter router = GoRouter(
         GoRoute(
           path: 'register',
           builder: (BuildContext context, GoRouterState state) {
-            return const RegisterScreen();
+            return  const RegisterScreen();
           },
         ),
       ],
