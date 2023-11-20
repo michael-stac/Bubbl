@@ -5,7 +5,7 @@ import '../screens/authentication/login.dart';
 import '../screens/authentication/register.dart';
 
 
-final GoRouter _router = GoRouter(
+final GoRouter router = GoRouter(
   routes: <RouteBase>[
     GoRoute(
       path: '/',
