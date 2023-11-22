@@ -42,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward();
 
     Future.delayed(const Duration(seconds: 2), () async {
-      nextPageAndRemovePrevious(context, page: const MainActivityPage());
+      nextPageAndRemovePrevious(context, page: const WelcomeScreen());
     });
   }
 }

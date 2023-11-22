@@ -1,9 +1,11 @@
+import 'package:bubbl/screens/bottom_nav_pages/main_activity.dart';
 import 'package:bubbl/services/shared/page_service.dart';
+import 'package:bubbl/utilities/router.dart';
 import 'package:flutter/material.dart';
 
 import '../../utilities/appcolors.dart';
 import '../../utilities/custom_button.dart';
-import '../../utilities/tech_start.dart';
+import '../../utilities/genaral.dart';
 
 
 class UserInterestScreen extends StatefulWidget {
@@ -71,6 +73,7 @@ class _UserInterestScreenState extends State<UserInterestScreen> {
                     PageService.textSpacexL,
                     customButton(context,
                         onTap: () {
+                      nextPageAndRemovePrevious(context, page: const MainActivityPage());
                         },
                         text: 'Proceed',
                         bgColor: AppColor.primaryColor),

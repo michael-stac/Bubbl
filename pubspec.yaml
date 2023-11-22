@@ -40,6 +40,7 @@ dependencies:
   local_auth: ^2.1.7
   material_design_icons_flutter: ^7.0.7296
   provider: ^6.1.1
+  readmore: ^2.2.0
 
 dev_dependencies:
   flutter_test:

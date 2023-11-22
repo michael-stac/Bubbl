@@ -8,6 +8,7 @@ class AppColor {
 
   static Color primaryColor = const Color(0xff381E72);
   static Color red = const Color(0xffFF0000);
+  static Color darkColor = const Color(0xFF49535C);
   static Color altPrimary = const Color.fromARGB(255, 230, 145, 144);
   static Color quickSilver =  const Color(0xff9BA59F);
   static Color cultured = const Color(0xffF5F5F5);
