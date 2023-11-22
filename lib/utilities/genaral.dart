@@ -1,5 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_text_form_field/flutter_text_form_field.dart';
+
+import 'appcolors.dart';
+
+
+
 
 List<String> techStackList = [
   "HTML",
@@ -52,6 +58,29 @@ List<String> techStackList = [
   "React Native",
   "Flutter"
 ];
+ List<String> getFlwBanks = [
+   "Access Bank",
+   "Diamond Bank",
+   "Ecobank Nigeria",
+   "Fidelity Bank",
+   "First Bank of Nigeria",
+   "First City Monument Bank",
+   "Guaranty Trust Bank",
+   "Heritage Bank",
+   "Jaiz Bank",
+   "Keystone Bank",
+   "Skye Bank",
+   "Stanbic IBTC Bank",
+   "Standard Chartered Bank",
+   "Sterling Bank",
+   "Union Bank",
+   "United Bank for Africa",
+   "Unity Bank",
+   "Wema Bank",
+   "Zenith Bank"
+
+ ];
+
 class AvatarClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {

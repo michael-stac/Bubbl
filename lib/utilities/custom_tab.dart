@@ -19,18 +19,19 @@ class InAppTabButton extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            width:50,
-            height:50,
-            margin: const EdgeInsets.only(bottom: 11),
-            alignment: Alignment.center,
-            padding: const EdgeInsets.all(9),
-            decoration: BoxDecoration(
-              color:  AppColor.white,
-              borderRadius: BorderRadius.circular(50),
-            ),
+            decoration: const BoxDecoration(
+                color: Color.fromRGBO(243, 245, 248, 1),
+                borderRadius: BorderRadius.all(
+                    Radius.circular(18))),
+            padding: const EdgeInsets.all(12),
             child: icon,
           ),
-          Text(text, textAlign: TextAlign.center,style: const TextStyle(color: Color(0xff777777), fontSize: 11, fontWeight: FontWeight.w500)),
+          Text(text, textAlign: TextAlign.center,style:
+          TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 14,
+              fontFamily: 'Inter',
+              color: Colors.blue.shade100)),
 
         ],
       ),

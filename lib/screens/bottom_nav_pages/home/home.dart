@@ -38,7 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             padding: const EdgeInsets.all(8.0),
                             child: GestureDetector(
                                 onTap: () {
-                                  // nextPage(context, page: ProfileScreen());
                                 },
                                 child: Icon(
                                   Icons.search,
@@ -91,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       return Center(
                         child: Container(
-                          margin: EdgeInsets.only(bottom: 20),
+                          margin: const EdgeInsets.only(bottom: 20),
                           constraints: const BoxConstraints(maxWidth: 400),
                           decoration: BoxDecoration(
                             color: AppColor.whiteSmokeColor2,
