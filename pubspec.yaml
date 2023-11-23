@@ -41,6 +41,9 @@ dependencies:
   material_design_icons_flutter: ^7.0.7296
   provider: ^6.1.1
   readmore: ^2.2.0
+  custom_image: ^0.0.3
+  cached_network_image: ^3.3.0
+  carousel_slider: ^4.2.1
 
 
 dev_dependencies:
